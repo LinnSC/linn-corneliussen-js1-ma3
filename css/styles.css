@@ -34,13 +34,6 @@ p {
   border-radius: 1rem;
 }
 
-.success {
-  border: 1px solid green;
-  padding: 1rem;
-  color: green;
-  background: rgba(0, 255, 0, 0.1);
-}
-
 .error {
   border: 1px solid darkred;
   padding: 1rem;

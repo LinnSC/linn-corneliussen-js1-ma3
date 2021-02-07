@@ -48,7 +48,7 @@ async function getGames() {
   } catch (error) {
     console.log("An error occured");
     resultsContainer.innerHTML = errorMessage(
-      "An error occured when getting the game info"
+      "An error occured when getting the game info."
     );
   }
 }

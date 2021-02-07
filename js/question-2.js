@@ -40,10 +40,10 @@ async function getGames() {
       }
 
       resultsContainer.innerHTML += `<div class="result">
-    <p>Name: ${gamesInfo[i].name} </p>
-    <p>Rating: ${gamesInfo[i].rating}</p>
-    <p>Tags: ${gamesInfo[i].tags.length}</p>
-  </div>`;
+                                        <p>Name: ${gamesInfo[i].name} </p>
+                                        <p>Rating: ${gamesInfo[i].rating}</p>
+                                        <p>Tags: ${gamesInfo[i].tags.length}</p>
+                                    </div>`;
     }
   } catch (error) {
     console.log("An error occured");

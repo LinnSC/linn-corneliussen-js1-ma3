@@ -1,10 +1,18 @@
 body {
-  background: #ebebeb;
-  font-family: "Open Sans", sans-serif;
+  background: #ede6dd;
+  font-family: "Open sans", sans-serif;
 }
 
 h1 {
   margin: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #9a6d5b;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #ede6dd;
 }
 
 .container {
@@ -12,12 +20,17 @@ h1 {
   margin: 0 auto;
 }
 
+.results {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .result {
   margin: 1rem;
   padding: 1rem;
-  max-width: 400px;
-  background: white;
-  border: 1px solid grey;
+  width: 400px;
+  background: #c49d7c;
+  border: 1px solid #cac8cb;
   border-radius: 1rem;
 }
 
@@ -36,8 +49,8 @@ h1 {
 }
 
 .loader {
-  border: 16px solid #f3f3f3;
-  border-top: 16px solid brown;
+  border: 16px solid #cac8cb;
+  border-top: 16px solid #818d9a;
   border-radius: 50%;
   width: 120px;
   height: 120px;
